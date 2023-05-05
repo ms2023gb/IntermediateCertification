@@ -14,7 +14,7 @@
 */
 
 Console.Clear();
-const int len = 3;
+const int len = 3; // константа для длины строк меньше 3
 
 string[] array = new string[] { "Hello", "2", "world", ":-)" };
 PrintArray(array);
