@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "T:\\IntermediateCertification\\IntermediateCertification.csproj": {}
+    "C:\\Users\\user\\Documents\\GitHub\\IntermediateCertification\\IntermediateCertification.csproj": {}
   },
   "projects": {
-    "T:\\IntermediateCertification\\IntermediateCertification.csproj": {
+    "C:\\Users\\user\\Documents\\GitHub\\IntermediateCertification\\IntermediateCertification.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "T:\\IntermediateCertification\\IntermediateCertification.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\IntermediateCertification\\IntermediateCertification.csproj",
         "projectName": "IntermediateCertification",
-        "projectPath": "T:\\IntermediateCertification\\IntermediateCertification.csproj",
+        "projectPath": "C:\\Users\\user\\Documents\\GitHub\\IntermediateCertification\\IntermediateCertification.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "T:\\IntermediateCertification\\obj\\",
+        "outputPath": "C:\\Users\\user\\Documents\\GitHub\\IntermediateCertification\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
