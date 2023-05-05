@@ -30,31 +30,19 @@ array = new string[] { "Russia", "Denmark", "Kazan" };
 PrintArray(array);
 PrintArray(FindInArray(array));
 
-/* 
-    Метод создание нового массива за два цикла перебора
-    Первый раз считаем количество нужных элементов
-    Создаем массив нужного размера и вторым циклом заполняем новый массив
-
+/*
+    Метод создания нового массива за один проход,
+    используя добавление нового элемента в массив
 */
 
 string[] FindInArray(string[] arrayForFind)
 {
-    int count = 0;
+    string[] newArray = new string[0];
     for (int i = 0; i < arrayForFind.Length; i++)
     {
         if (arrayForFind[i].Length <= len)
         {
-            count++;
-        }
-    }
-    string[] newArray = new string[count];
-    int index = 0;
-    for (int j = 0; j < arrayForFind.Length; j++)
-    {
-        if (arrayForFind[j].Length <= len)
-        {
-            newArray[index] = arrayForFind[j];
-            index++;
+            newArray = newArray.Append(arrayForFind[i]).ToArray();
         }
     }
     return newArray;
